@@ -6,8 +6,8 @@ export const users: UsersStore = new Map()
 export const tokens: RefreshTokensStore = new Map()
 
 export function seedUserStore() {
-  users.set('diego@rocketseat.team', {
-    password: '123456',
+  users.set('teste12@teste.com', {
+    password: 'retro43',
     permissions: ['users.list', 'users.create', 'metrics.list'],
     roles: ['administrator']
   })
